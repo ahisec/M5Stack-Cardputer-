@@ -1,0 +1,18 @@
+{
+    "manufacturer": "m5stack",
+    "type": "m5stack-cardputer",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "m5stack-cardputer",
+            "sdkconfig_append": [
+                "CONFIG_SPIRAM=n",
+                "CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y",
+                "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions/v2/8m.csv\"",
+                "CONFIG_FLASH_DEFAULT_ASSETS=n",
+                "CONFIG_FLASH_CUSTOM_ASSETS=y",
+                "CONFIG_CUSTOM_ASSETS_FILE=\"../../deepseek-assets.bin\""
+            ]
+        }
+    ]
+}

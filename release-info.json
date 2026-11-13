@@ -1,0 +1,53 @@
+{
+  "release_date": "2026-11-13",
+  "package_kind": "community main-branch build, not an official release",
+  "board": "M5Stack Cardputer original, non-ADV",
+  "source": "https://github.com/78/xiaozhi-esp32",
+  "source_commit": "67ca62d4bb7d91e514d7ccd5e6977745002f41f4",
+  "project_version": "2.6.0",
+  "agent_connected_to_hardware": false,
+  "user_reported_hardware_validation": {
+    "date": "2026-11-13",
+    "source": "Device owner reported success in this conversation",
+    "variant": "deepseek",
+    "device": "one original M5Stack Cardputer, non-ADV",
+    "report": "已经成功跑起来了",
+    "scope": "Successful operation reported; no claim of exhaustive peripheral or endurance testing"
+  },
+  "binary_files": [
+    {
+      "file": "firmware/cardputer-stock-full.bin",
+      "bytes": 7616468,
+      "sha256": "2386ae01eeec1e7e019225626bdc28198fe5ccc358ad0155b577bae1e29d7c60",
+      "flash_address": "0x0",
+      "variant": "stock"
+    },
+    {
+      "file": "assets/cardputer-stock-assets.bin",
+      "bytes": 1325012,
+      "sha256": "590d532c3c2f547dfa4156465a22421d5eb0698ffc82a5f3165013e28917fe79",
+      "flash_address": "0x600000",
+      "variant": "stock"
+    },
+    {
+      "file": "firmware/cardputer-deepseek-full.bin",
+      "bytes": 7636952,
+      "sha256": "981e305c591e96bb07e96db3b4762f587692ddd969bbc5eb8a5895f54bceb20a",
+      "flash_address": "0x0",
+      "variant": "deepseek"
+    },
+    {
+      "file": "assets/cardputer-deepseek-assets.bin",
+      "bytes": 1345496,
+      "sha256": "8b33f25bd7360826b71419028f8edeed8f1a4e0b60789459435dfbc30753d835",
+      "flash_address": "0x600000",
+      "variant": "deepseek"
+    }
+  ],
+  "checks": {
+    "firmware_hashes_match_previous_verified_builds": true,
+    "resource_files_match_merged_firmware_at_0x600000": true,
+    "resource_partition_capacity_bytes": 2097152,
+    "flash_capacity_bytes": 8388608
+  }
+}

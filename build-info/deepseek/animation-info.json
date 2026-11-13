@@ -1,0 +1,68 @@
+{
+  "pet_id": "deepseek-chan",
+  "author": "Dullsaw",
+  "source_url": "https://codex-pets.net/#/?q=deepseek",
+  "source_download_url": "https://codex-pets.net/api/pets/deepseek-chan/download?v=1791020401654",
+  "source_package_sha256": "84dd7b1ecdb6e9424e24f00751535eb23d8e5421380acfc07b90d8040a9ae32f",
+  "source_sheet_sha256": "3c2e0e0b1fb6a590806e2d857eb3ffe6a984889fc2f168cc171d92102ca2597e",
+  "frame_width": 48,
+  "frame_height": 52,
+  "pixel_buffer_bytes": 12480,
+  "actions": {
+    "idle": {
+      "row": 0,
+      "frames": 6,
+      "duration_ms": 260,
+      "file_size": 12388
+    },
+    "waving": {
+      "row": 3,
+      "frames": 4,
+      "duration_ms": 180,
+      "file_size": 8406
+    },
+    "jumping": {
+      "row": 4,
+      "frames": 5,
+      "duration_ms": 180,
+      "file_size": 8169
+    },
+    "failed": {
+      "row": 5,
+      "frames": 8,
+      "duration_ms": 240,
+      "file_size": 15568
+    },
+    "waiting": {
+      "row": 6,
+      "frames": 6,
+      "duration_ms": 260,
+      "file_size": 12108
+    }
+  },
+  "emotion_actions": {
+    "angry": "failed",
+    "confident": "waving",
+    "confused": "waiting",
+    "cool": "idle",
+    "crying": "failed",
+    "delicious": "waving",
+    "embarrassed": "waiting",
+    "funny": "jumping",
+    "happy": "waving",
+    "kissy": "waving",
+    "laughing": "jumping",
+    "loving": "waving",
+    "neutral": "idle",
+    "relaxed": "idle",
+    "sad": "failed",
+    "shocked": "jumping",
+    "silly": "jumping",
+    "sleepy": "idle",
+    "surprised": "jumping",
+    "thinking": "waiting",
+    "winking": "waving"
+  },
+  "assets_size": 1345992,
+  "assets_sha256": "2a2b36abb8065f626970f06415c19eef713c43f96adebc083dcb6661818a32c5"
+}
